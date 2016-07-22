@@ -13,10 +13,10 @@ if (month === 2 && day === 26)
 {
     var img = new Image();
     img.onload = function() {
-      ctx.drawImage(img, 0, 0, 500, 259, 0, 0, 500, 259);
+      ctx.drawImage(img, 0, 0, 500, 239, 0, 0, 500, 239);
     };
     img.src = "happy.gif";
-    document.write("YES :\')");
+    document.write("<br/" + "<br/" +"YES :\')");
 }
 else
 {
