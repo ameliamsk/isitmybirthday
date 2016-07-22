@@ -11,6 +11,11 @@ var day = currentTime.getDate();
 
 if (month === 2 && day === 26)
 {
+    var img = new Image();
+    img.onload = function() {
+      ctx.drawImage(img, 0, 0, 500, 259, 0, 0, 500, 259);
+    };
+    img.src = "happy.gif";
     document.write("YES :\')");
 }
 else
