@@ -20,5 +20,5 @@ else
       ctx.drawImage(img, 0, 0, 500, 259, 0, 0, 500, 259);
     };
     img.src = "Hillary-Duff.gif";
-    document.write("NO :\'(");
+    document.write(/n + "NO :\'(");
 }
